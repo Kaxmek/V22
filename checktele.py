@@ -207,7 +207,7 @@ async def _(event):
 async def _(event):
     if ispay2[0] == "yes":
         await event.edit(tele_checker2)
-# صيد عدد نوع قناة
+# هنا حلم لاتغير حقوق  طيز
 
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.صيد (.*)"))
@@ -249,17 +249,15 @@ async def _(event):
                     await fifthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-●━━━━━━━━●
 ┏━━━━━┓
-- By ↣ @B_Y_5
+
+● @HLLAM ●
+
+● (@{username}) ●
+
+● @H_P_K ●
+
 ┗━━━━━┛
-┏━━━━━┓
-↣ (@{username})
-┗━━━━━┛
-┏━━━━━┓
-- By ↣@X_K_5 
-┗━━━━━┛
-●━━━━━━━━●
 
     ''')
                     break
@@ -273,7 +271,7 @@ async def _(event):
                     if "A wait of" in str(eee):
                         break
                     else:
-                        await fifthon.send_message(event.chat.id, " اجاك متاح !")
+                        await fifthon.send_message(event.chat.id, "!تعال متاح")
             else:
                 pass
             trys += 1
@@ -281,7 +279,7 @@ async def _(event):
         isclaim.clear()
         isclaim.append("off")
         trys = ""
-        await event.client.send_message(event.chat_id, "! انتهى الصيد")
+        await event.client.send_message(event.chat_id, "! خلص الفحص ") 
         
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت (.*)"))
 async def _(event):
@@ -317,18 +315,15 @@ async def _(event):
                         await fifthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-●━━━━━━━━●
 ┏━━━━━┓
-- By ↣ @B_Y_5
-┗━━━━━┛
-┏━━━━━┓
-↣ (@{username})
-┗━━━━━┛
-┏━━━━━┓
-- By ↣@X_K_5 
-┗━━━━━┛
-●━━━━━━━━●
 
+● @HLLAM ●
+
+● (@{username}) ●
+
+● @H_P_K ●
+
+┗━━━━━┛
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -349,7 +344,7 @@ async def _(event):
             trys = ""
             isclaim.clear()
             isclaim.append("off")
-            await fifthon.send_message(event.chat_id, "تم الانتهاء من التثبيت التلقائي")
+            await fifthon.send_message(event.chat_id, "انتهى التثبيت")
         if msg[0] == "يدوي":  # تثبيت يدوي يوزر قناة
             await event.edit(f"حسناً سأحاول تثبيت `{username}` على `{ch}` !")
             msg = ("".join(event.text.split(maxsplit=1)[1:])).split(" ", 1)
@@ -359,17 +354,16 @@ async def _(event):
                 await fifthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-●━━━━━━━━●
+
 ┏━━━━━┓
-- By ↣ @B_Y_5
+
+● @HLLAM ●
+
+● (@{username}) ●
+
+● @H_P_K ●
+
 ┗━━━━━┛
-┏━━━━━┓
-↣ (@{username})
-┗━━━━━┛
-┏━━━━━┓
-- By ↣@X_K_5 
-┗━━━━━┛
-●━━━━━━━━●
 
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
