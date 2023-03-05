@@ -104,12 +104,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ LUCITHON 
-☆ Version : 2.2
-☆ Ping : `{ms}`
-☆ Date : `{m9zpi}`
-☆ ID : `{event.sender_id}`
-☆ SOURCE LUCITHON: @B_Y_5 **
+● ھـَْـُلاٌٍے وًَ غ̷̷َـلاَّ شۨغال اࠗلسܱܰ୨ورس ●
+
+● سـورس حـلم ● @HLLAM ●
+● البنك : `{ms}`●
+● التاريخ: `{m9zpi}`●
+● ايدي : `{event.sender_id}`●
 ''')
 
 
@@ -138,11 +138,11 @@ async def _(event):
 
     
 ownerhson_id = 1041483862
-@fifthon.on(events.NewMessage(outgoing=False, pattern='/start'))
+@fifthon.on(events.NewMessage(outgoing=False, pattern='حلم'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('●━━━━━━ @B_Y_5 ━━━━━━●')
+        order = await event.reply('● ● ● @HLLAM ● ● ●')
 
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
