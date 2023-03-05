@@ -147,7 +147,7 @@ async def OwnerStart(event):
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
-    await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتضر 1-2 دقيقة  .")
+    await event.edit(" ثـواني ويشتغل ؟ لمن مايشتغل طب سولف بكروبي  @jnuun ")
     await fifthon.disconnect()
     await fifthon.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
 
