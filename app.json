@@ -1,7 +1,7 @@
 {
-    "name": "لوسيثون",
+    "name": "سورس حلم",
     "description": " اهلا بكم في تنصيب سورس صيد اليوزرات !",
-    "logo" : "https://telegra.ph/file/4992d6e018a251fee31b1.jpg",
+    "logo" : ".",
     "stack": "container",
     "repository": "https://github.com/perdark/per-sed",
     "keywords": [
