@@ -255,7 +255,7 @@ async def _(event):
 
 ● (@{username}) ●
 
-● @H_P_K ●
+● @v_c_t ●
 
 ┗━━━━━┛
 
@@ -321,7 +321,7 @@ async def _(event):
 
 ● (@{username}) ●
 
-● @H_P_K ●
+● @v_c_t ●
 
 ┗━━━━━┛
     ''')
@@ -361,7 +361,7 @@ async def _(event):
 
 ● (@{username}) ●
 
-● @H_P_K ●
+● @v_c_t ●
 
 ┗━━━━━┛
 
