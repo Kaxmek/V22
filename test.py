@@ -94,7 +94,7 @@ async def _(event):
 
     sandy = await event.edit(
         event,
-        "** ثـواني ويشتغل ؟ لمن مايشتغل طب سولف بكروبي  @jnuuun **",
+        "** ثـواني ويشتغل ؟ لمن مايشتغل طب سولف بكروبي  @jnuuo **",
     )
     try:
         ulist = get_collectionlist_items()
