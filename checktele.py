@@ -251,7 +251,7 @@ async def _(event):
                     await event.client.send_message(event.chat_id, f'''
 ┏━━━━━┓
 
-● @HLLAM ●
+● @H_P_K ●
 
 ● (@{username}) ●
 
@@ -317,7 +317,7 @@ async def _(event):
                         await event.client.send_message(event.chat_id, f'''
 ┏━━━━━┓
 
-● @HLLAM ●
+● @H_P_K ●
 
 ● (@{username}) ●
 
@@ -357,7 +357,7 @@ async def _(event):
 
 ┏━━━━━┓
 
-● @HLLAM ●
+● @H_P_K ●
 
 ● (@{username}) ●
 
