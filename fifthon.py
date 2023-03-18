@@ -105,7 +105,7 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
 ● ھـَْـُلاٌٍے وًَ غ̷̷َـلاَّ شۨغال اࠗلسܱܰ୨ورس ●
-● سـورس حـلم ● @H_P_K ●
+● سـورس حـلم● @H_P_K ● @jnuuo ●
 ● البنك : `{ms}`●
 ● التاريخ: `{m9zpi}`●
 ● ايدي : `{event.sender_id}`●
