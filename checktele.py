@@ -244,7 +244,7 @@ async def _(event):
             t.join()
             isav = que.get()
             if "Available" in isav:
-                await asyncio.sleep(1)
+                await asyncio.sleep(3)
                 try:
                     await fifthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
@@ -340,7 +340,7 @@ async def _(event):
                     pass
                 trys += 1
 
-                await asyncio.sleep(8)
+                await asyncio.sleep(5)
             trys = ""
             isclaim.clear()
             isclaim.append("off")
